@@ -9,13 +9,11 @@ SwiftKart is a modern, light-weight, and complete full-stack e-commerce project.
 The system automatically seeds the following test accounts on first startup. You can use these accounts to verify regular customer and manager/admin functionalities.
 
 ### 1. Regular Customer Account
-* **Role**: Can browse products, manage shopping cart, and place orders.
-* **Email**: `user@apexmart.com`
+* **Email**: `user@swiftkart.com`
 * **Password**: `user123`
 
 ### 2. Store Admin / Manager Account
-* **Role**: Can view statistics, add/edit/delete catalog products, and update customer order shipment statuses.
-* **Email**: `admin@apexmart.com`
+* **Email**: `admin@swiftkart.com`
 * **Password**: `admin123`
 
 ---
