@@ -7,12 +7,12 @@ export default function CartPage({
 }) {
   return (
     <section>
-      <h1 style={{ marginBottom: '1.5rem', fontWeight: 800 }}>Your Shopping Cart</h1>
+      <h1 style={{ marginBottom: '1.5rem', fontWeight: 800 }}>SwiftKart Shopping Cart</h1>
 
       {cartItems.length === 0 ? (
         <div className="empty-state">
           <ShoppingCart className="icon" style={{ width: '4rem', height: '4rem', strokeWidth: 1.5, color: 'var(--text-muted)' }} />
-          <p className="empty-state-title">Your Cart is Empty</p>
+          <p className="empty-state-title">SwiftKart Cart is Empty</p>
           <p className="empty-state-text">Explore our collection catalog to add premium gadgets and lifestyle items.</p>
           <button className="btn btn-primary" onClick={() => navigate('catalog')}>
             Start Shopping

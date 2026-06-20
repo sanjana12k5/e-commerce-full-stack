@@ -13,7 +13,7 @@ export default function Navbar({ darkMode, setDarkMode, currentPage, navigate, c
     <header className="navbar">
       <div className="nav-brand" onClick={() => navigate('catalog')}>
         <ShoppingBag className="icon" style={{ strokeWidth: 3 }} />
-        <span>YourCart</span>
+        <span>Swiftkart</span>
       </div>
 
       <nav className="nav-links">

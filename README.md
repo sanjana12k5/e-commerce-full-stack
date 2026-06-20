@@ -1,6 +1,6 @@
-# YourCart - Modern Full-Stack E-commerce Web Application
+# SwiftKart - Modern Full-Stack E-commerce Web Application
 
-YourCart is a modern, light-weight, and complete full-stack e-commerce project. It features user authentication, product catalogs, shopping carts, billing checkout forms, order histories, and a built-in admin panel dashboard.
+SwiftKart is a modern, light-weight, and complete full-stack e-commerce project. It features user authentication, product catalogs, shopping carts, billing checkout forms, order histories, and a built-in admin panel dashboard.
 
 ---
 

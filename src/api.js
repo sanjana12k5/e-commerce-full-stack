@@ -1,4 +1,4 @@
-// Dynamic API Client for YourCart MERN Stack CRUD API
+// Dynamic API Client for SwiftKart MERN Stack CRUD API
 
 const handleResponse = async (response) => {
   const data = await response.json();

@@ -345,20 +345,20 @@ async function seedDatabase() {
       await User.create([
         {
           name: 'Regular Customer',
-          email: 'user@yourcart.com',
+          email: 'user@swiftkart.com',
           phone: '9876543210',
           address: '123 E-Commerce Shop Ave, NY 10001',
         },
         {
           name: 'Store Manager',
-          email: 'admin@yourcart.com',
+          email: 'admin@swiftkart.com',
           phone: '9876543211',
           address: '55 Manager HQ Boulevard, NY 10002',
         },
       ]);
       console.log('Seeded accounts:');
-      console.log('  Customer: user@yourcart.com');
-      console.log('  Admin   : admin@yourcart.com');
+      console.log('  Customer: user@swiftkart.com');
+      console.log('  Admin   : admin@swiftkart.com');
     }
 
     // 2. Seed Products

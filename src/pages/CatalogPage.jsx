@@ -9,7 +9,7 @@ export default function CatalogPage({
     <section>
       <div className="hero-banner">
         <h1>Simple, Sleek, Secure Shopping</h1>
-        <p>Welcome to **YourCart**. Discover standard high-performance technology, home office gear, and daily accessories curated just for you.</p>
+        <p>Welcome to **SwiftKart**. Discover standard high-performance technology, home office gear, and daily accessories curated just for you.</p>
         <button className="btn btn-primary" style={{ alignSelf: 'flex-start', marginTop: '0.5rem' }} onClick={() => {
           const catalogEl = document.getElementById('products-section');
           if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });

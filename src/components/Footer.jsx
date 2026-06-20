@@ -7,7 +7,7 @@ export default function Footer({ navigate, userInfo }) {
         <div className="footer-column">
           <div className="nav-brand" style={{ cursor: 'default', marginBottom: '1rem' }}>
             <ShoppingBag className="icon" style={{ strokeWidth: 3 }} />
-            <span>YourCart</span>
+            <span>Swiftkart</span>
           </div>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', lineHeight: 1.5 }}>
             Simplifying full-stack e-commerce. A lightweight and premium web-store dashboard connecting frontend clients directly to local backend databases.
@@ -28,7 +28,7 @@ export default function Footer({ navigate, userInfo }) {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} YourCart E-commerce Project. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} SwiftKart E-commerce Project. All rights reserved.</p>
       </div>
     </footer>
   );
